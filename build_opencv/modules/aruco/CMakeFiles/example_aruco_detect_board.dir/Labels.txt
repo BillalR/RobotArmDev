@@ -1,0 +1,9 @@
+# Target labels
+ Extra
+ opencv_aruco
+ Sample
+# Source files and their labels
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv_contrib/modules/aruco/samples/detect_board.cpp
+ Extra
+ opencv_aruco
+ Sample

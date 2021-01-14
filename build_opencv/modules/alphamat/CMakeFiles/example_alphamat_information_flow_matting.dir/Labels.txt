@@ -1,0 +1,9 @@
+# Target labels
+ Extra
+ opencv_alphamat
+ Sample
+# Source files and their labels
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv_contrib/modules/alphamat/samples/information_flow_matting.cpp
+ Extra
+ opencv_alphamat
+ Sample

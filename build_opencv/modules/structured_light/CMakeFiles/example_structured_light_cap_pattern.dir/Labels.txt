@@ -1,0 +1,9 @@
+# Target labels
+ Extra
+ opencv_structured_light
+ Sample
+# Source files and their labels
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv_contrib/modules/structured_light/samples/cap_pattern.cpp
+ Extra
+ opencv_structured_light
+ Sample

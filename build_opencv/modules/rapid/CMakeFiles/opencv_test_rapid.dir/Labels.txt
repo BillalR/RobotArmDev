@@ -1,0 +1,13 @@
+# Target labels
+ Extra
+ opencv_rapid
+ AccuracyTest
+# Source files and their labels
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv_contrib/modules/rapid/test/test_main.cpp
+ Extra
+ opencv_rapid
+ AccuracyTest
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv_contrib/modules/rapid/test/test_precomp.hpp
+ Extra
+ opencv_rapid
+ AccuracyTest

@@ -1,0 +1,22 @@
+PORTED FUNCs LIST (14 of 14):
+
+ void cv::phase_unwrapping::PhaseUnwrapping::unwrapPhaseMap(Mat wrappedPhaseMap, Mat& unwrappedPhaseMap, Mat shadowMask = Mat())
+  cv::phase_unwrapping::HistogramPhaseUnwrapping::Params::Params()
+int Params::width
+void Params::width
+int Params::height
+void Params::height
+float Params::histThresh
+void Params::histThresh
+int Params::nbrOfSmallBins
+void Params::nbrOfSmallBins
+int Params::nbrOfLargeBins
+void Params::nbrOfLargeBins
+static Ptr_HistogramPhaseUnwrapping cv::phase_unwrapping::HistogramPhaseUnwrapping::create(HistogramPhaseUnwrapping_Params parameters = HistogramPhaseUnwrapping::Params())
+ void cv::phase_unwrapping::HistogramPhaseUnwrapping::getInverseReliabilityMap(Mat& reliabilityMap)
+
+SKIPPED FUNCs LIST (0 of 14):
+
+
+0 def args - 2 funcs
+1 def args - 2 funcs

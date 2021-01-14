@@ -1,0 +1,9 @@
+# Target labels
+ Extra
+ opencv_text
+ Sample
+# Source files and their labels
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv_contrib/modules/text/samples/character_recognition.cpp
+ Extra
+ opencv_text
+ Sample

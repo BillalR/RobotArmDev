@@ -1,0 +1,23 @@
+# Target labels
+ Extra
+ opencv_intensity_transform
+ Module
+# Source files and their labels
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv_contrib/modules/intensity_transform/include/opencv2/intensity_transform.hpp
+ Extra
+ opencv_intensity_transform
+ Module
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv_contrib/modules/intensity_transform/src/bimef.cpp
+ Extra
+ opencv_intensity_transform
+ Module
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv_contrib/modules/intensity_transform/src/intensity_transform.cpp
+ Extra
+ opencv_intensity_transform
+ Module
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv_contrib/modules/intensity_transform/src/precomp.hpp
+ Extra
+ opencv_intensity_transform
+ Module
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/cvconfig.h
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/opencv2/opencv_modules.hpp

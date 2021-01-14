@@ -1,0 +1,1140 @@
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-deprecated-enum-enum-conversion', did you mean '-Wno-bitfield-enum-conversion'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment  -Wno-deprecated-enum-enum-conversion'
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bf120/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bf120.dir/build.make CMakeFiles/cmTC_bf120.dir/build
+Building CXX object CMakeFiles/cmTC_bf120.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment  -Wno-deprecated-enum-enum-conversion -std=c++11 -o CMakeFiles/cmTC_bf120.dir/src.cxx.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-deprecated-enum-enum-conversion'; did you mean '-Wno-bitfield-enum-conversion'? [-Wunknown-warning-option]
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking CXX executable cmTC_bf120
+/usr/local/Cellar/cmake/3.18.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf120.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++ -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bf120.dir/src.cxx.o -o cmTC_bf120 
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-deprecated-enum-enum-conversion', did you mean '-Wno-bitfield-enum-conversion'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment  -Wno-deprecated-enum-enum-conversion'
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_48cca/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_48cca.dir/build.make CMakeFiles/cmTC_48cca.dir/build
+Building C object CMakeFiles/cmTC_48cca.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment  -Wno-deprecated-enum-enum-conversion -o CMakeFiles/cmTC_48cca.dir/src.c.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-deprecated-enum-enum-conversion'; did you mean '-Wno-bitfield-enum-conversion'? [-Wunknown-warning-option]
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_48cca
+/usr/local/Cellar/cmake/3.18.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48cca.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_48cca.dir/src.c.o -o cmTC_48cca 
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-deprecated-anon-enum-enum-conversion', did you mean '-Wno-deprecated-increment-bool'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment  -Wno-deprecated-anon-enum-enum-conversion'
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_59ac8/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_59ac8.dir/build.make CMakeFiles/cmTC_59ac8.dir/build
+Building CXX object CMakeFiles/cmTC_59ac8.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment  -Wno-deprecated-anon-enum-enum-conversion -std=c++11 -o CMakeFiles/cmTC_59ac8.dir/src.cxx.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-deprecated-anon-enum-enum-conversion'; did you mean '-Wno-deprecated-increment-bool'? [-Wunknown-warning-option]
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking CXX executable cmTC_59ac8
+/usr/local/Cellar/cmake/3.18.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59ac8.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++ -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_59ac8.dir/src.cxx.o -o cmTC_59ac8 
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-deprecated-anon-enum-enum-conversion', did you mean '-Wno-deprecated-increment-bool'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment  -Wno-deprecated-anon-enum-enum-conversion'
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e888a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e888a.dir/build.make CMakeFiles/cmTC_e888a.dir/build
+Building C object CMakeFiles/cmTC_e888a.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment  -Wno-deprecated-anon-enum-enum-conversion -o CMakeFiles/cmTC_e888a.dir/src.c.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-deprecated-anon-enum-enum-conversion'; did you mean '-Wno-deprecated-increment-bool'? [-Wunknown-warning-option]
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_e888a
+/usr/local/Cellar/cmake/3.18.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e888a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e888a.dir/src.c.o -o cmTC_e888a 
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_popcnt.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c0842/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c0842.dir/build.make CMakeFiles/cmTC_c0842.dir/build
+Building CXX object CMakeFiles/cmTC_c0842.dir/cpu_popcnt.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -o CMakeFiles/cmTC_c0842.dir/cpu_popcnt.cpp.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_popcnt.cpp
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_popcnt.cpp:14:4: error: "__POPCNT__ is not defined by compiler"
+#  error "__POPCNT__ is not defined by compiler"
+   ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_popcnt.cpp:22:13: error: use of undeclared identifier 'CV_POPCNT_U32'
+    int j = CV_POPCNT_U32(1);
+            ^
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_c0842.dir/cpu_popcnt.cpp.o] Error 1
+make: *** [cmTC_c0842/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_sse42.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4a33a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4a33a.dir/build.make CMakeFiles/cmTC_4a33a.dir/build
+Building CXX object CMakeFiles/cmTC_4a33a.dir/cpu_sse42.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -o CMakeFiles/cmTC_4a33a.dir/cpu_sse42.cpp.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_sse42.cpp
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_sse42.cpp:5:24: error: always_inline function '_mm_crc32_u8' requires target feature 'sse4.2', but would be inlined into function 'main' that is compiled without support for 'sse4.2'
+    unsigned int res = _mm_crc32_u8(1, 2);
+                       ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_4a33a.dir/cpu_sse42.cpp.o] Error 1
+make: *** [cmTC_4a33a/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_fp16.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1b859/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1b859.dir/build.make CMakeFiles/cmTC_1b859.dir/build
+Building CXX object CMakeFiles/cmTC_1b859.dir/cpu_fp16.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -o CMakeFiles/cmTC_1b859.dir/cpu_fp16.cpp.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_fp16.cpp
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_fp16.cpp:26:2: error: "FP16 is not supported"
+#error "FP16 is not supported"
+ ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_fp16.cpp:31:18: error: use of undeclared identifier 'test'
+  printf("%d\n", test());
+                 ^
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_1b859.dir/cpu_fp16.cpp.o] Error 1
+make: *** [cmTC_1b859/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_919d6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_919d6.dir/build.make CMakeFiles/cmTC_919d6.dir/build
+Building CXX object CMakeFiles/cmTC_919d6.dir/cpu_avx.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -o CMakeFiles/cmTC_919d6.dir/cpu_avx.cpp.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx.cpp
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx.cpp:2:2: error: "__AVX__ define is missing"
+#error "__AVX__ define is missing"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_919d6.dir/cpu_avx.cpp.o] Error 1
+make: *** [cmTC_919d6/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx2.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a9202/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a9202.dir/build.make CMakeFiles/cmTC_a9202.dir/build
+Building CXX object CMakeFiles/cmTC_a9202.dir/cpu_avx2.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -o CMakeFiles/cmTC_a9202.dir/cpu_avx2.cpp.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx2.cpp
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx2.cpp:2:2: error: "__AVX2__ define is missing"
+#error "__AVX2__ define is missing"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a9202.dir/cpu_avx2.cpp.o] Error 1
+make: *** [cmTC_a9202/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2ee1f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2ee1f.dir/build.make CMakeFiles/cmTC_2ee1f.dir/build
+Building CXX object CMakeFiles/cmTC_2ee1f.dir/cpu_avx512.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -o CMakeFiles/cmTC_2ee1f.dir/cpu_avx512.cpp.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512.cpp
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512.cpp:11:2: error: "AVX512 is not supported"
+#error "AVX512 is not supported"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_2ee1f.dir/cpu_avx512.cpp.o] Error 1
+make: *** [cmTC_2ee1f/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512common.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d79c7/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d79c7.dir/build.make CMakeFiles/cmTC_d79c7.dir/build
+Building CXX object CMakeFiles/cmTC_d79c7.dir/cpu_avx512common.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -o CMakeFiles/cmTC_d79c7.dir/cpu_avx512common.cpp.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512common.cpp
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512common.cpp:12:2: error: "AVX512-COMMON is not supported"
+#error "AVX512-COMMON is not supported"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_d79c7.dir/cpu_avx512common.cpp.o] Error 1
+make: *** [cmTC_d79c7/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512knl.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6ea22/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6ea22.dir/build.make CMakeFiles/cmTC_6ea22.dir/build
+Building CXX object CMakeFiles/cmTC_6ea22.dir/cpu_avx512knl.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -o CMakeFiles/cmTC_6ea22.dir/cpu_avx512knl.cpp.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512knl.cpp
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512knl.cpp:14:2: error: "AVX512-KNL is not supported"
+#error "AVX512-KNL is not supported"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_6ea22.dir/cpu_avx512knl.cpp.o] Error 1
+make: *** [cmTC_6ea22/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512knm.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3b479/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3b479.dir/build.make CMakeFiles/cmTC_3b479.dir/build
+Building CXX object CMakeFiles/cmTC_3b479.dir/cpu_avx512knm.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -o CMakeFiles/cmTC_3b479.dir/cpu_avx512knm.cpp.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512knm.cpp
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512knm.cpp:15:2: error: "AVX512-KNM is not supported"
+#error "AVX512-KNM is not supported"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_3b479.dir/cpu_avx512knm.cpp.o] Error 1
+make: *** [cmTC_3b479/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512knm.cpp'
+    check option: ' -mavx512f -mavx512cd -mavx512er -mavx512pf -mavx5124fmaps -mavx5124vnniw -mavx512vpopcntdq'
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6980e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6980e.dir/build.make CMakeFiles/cmTC_6980e.dir/build
+Building CXX object CMakeFiles/cmTC_6980e.dir/cpu_avx512knm.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -mavx512f -mavx512cd -mavx512er -mavx512pf -mavx5124fmaps -mavx5124vnniw -mavx512vpopcntdq -std=c++11 -o CMakeFiles/cmTC_6980e.dir/cpu_avx512knm.cpp.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512knm.cpp
+clang: error: unknown argument: '-mavx5124fmaps'
+clang: error: unknown argument: '-mavx5124vnniw'
+make[1]: *** [CMakeFiles/cmTC_6980e.dir/cpu_avx512knm.cpp.o] Error 1
+make: *** [cmTC_6980e/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512skx.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1208d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1208d.dir/build.make CMakeFiles/cmTC_1208d.dir/build
+Building CXX object CMakeFiles/cmTC_1208d.dir/cpu_avx512skx.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -o CMakeFiles/cmTC_1208d.dir/cpu_avx512skx.cpp.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512skx.cpp
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512skx.cpp:30:2: error: "AVX512-SKX is not supported"
+#error "AVX512-SKX is not supported"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_1208d.dir/cpu_avx512skx.cpp.o] Error 1
+make: *** [cmTC_1208d/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512cnl.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5fd69/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5fd69.dir/build.make CMakeFiles/cmTC_5fd69.dir/build
+Building CXX object CMakeFiles/cmTC_5fd69.dir/cpu_avx512cnl.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -o CMakeFiles/cmTC_5fd69.dir/cpu_avx512cnl.cpp.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512cnl.cpp
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512cnl.cpp:10:2: error: "AVX512-CNL is not supported"
+#error "AVX512-CNL is not supported"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_5fd69.dir/cpu_avx512cnl.cpp.o] Error 1
+make: *** [cmTC_5fd69/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512clx.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_28285/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_28285.dir/build.make CMakeFiles/cmTC_28285.dir/build
+Building CXX object CMakeFiles/cmTC_28285.dir/cpu_avx512clx.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -o CMakeFiles/cmTC_28285.dir/cpu_avx512clx.cpp.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512clx.cpp
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512clx.cpp:9:2: error: "AVX512-CLX is not supported"
+#error "AVX512-CLX is not supported"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_28285.dir/cpu_avx512clx.cpp.o] Error 1
+make: *** [cmTC_28285/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512icl.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9d8bf/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9d8bf.dir/build.make CMakeFiles/cmTC_9d8bf.dir/build
+Building CXX object CMakeFiles/cmTC_9d8bf.dir/cpu_avx512icl.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -o CMakeFiles/cmTC_9d8bf.dir/cpu_avx512icl.cpp.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512icl.cpp
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv/cmake/checks/cpu_avx512icl.cpp:12:2: error: "AVX512-ICL is not supported"
+#error "AVX512-ICL is not supported"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_9d8bf.dir/cpu_avx512icl.cpp.o] Error 1
+make: *** [cmTC_9d8bf/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4214f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4214f.dir/build.make CMakeFiles/cmTC_4214f.dir/build
+Building CXX object CMakeFiles/cmTC_4214f.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -o CMakeFiles/cmTC_4214f.dir/src.cxx.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4214f
+/usr/local/Cellar/cmake/3.18.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4214f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++ -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -Wl,--as-needed  CMakeFiles/cmTC_4214f.dir/src.cxx.o -o cmTC_4214f 
+ld: unknown option: --as-needed
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_4214f] Error 1
+make: *** [cmTC_4214f/fast] Error 2
+
+
+===== END =====
+
+Determining if the include file malloc.h exists failed with the following output:
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_442b2/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_442b2.dir/build.make CMakeFiles/cmTC_442b2.dir/build
+Building C object CMakeFiles/cmTC_442b2.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -o CMakeFiles/cmTC_442b2.dir/CheckIncludeFile.c.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_442b2.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_442b2/fast] Error 2
+
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aeff4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_aeff4.dir/build.make CMakeFiles/cmTC_aeff4.dir/build
+Building C object CMakeFiles/cmTC_aeff4.dir/OFF64_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -o CMakeFiles/cmTC_aeff4.dir/OFF64_T.c.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c:29:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c:30:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c:31:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c:32:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c:33:12: error: use of undeclared identifier 'off64_t'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_aeff4.dir/OFF64_T.c.o] Error 1
+make: *** [cmTC_aeff4/fast] Error 2
+
+
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fcb3a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fcb3a.dir/build.make CMakeFiles/cmTC_fcb3a.dir/build
+Building C object CMakeFiles/cmTC_fcb3a.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -o CMakeFiles/cmTC_fcb3a.dir/CheckIncludeFile.c.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'io.h' file not found
+#include <io.h>
+         ^~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_fcb3a.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_fcb3a/fast] Error 2
+
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cb2d9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cb2d9.dir/build.make CMakeFiles/cmTC_cb2d9.dir/build
+Building C object CMakeFiles/cmTC_cb2d9.dir/int8.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -o CMakeFiles/cmTC_cb2d9.dir/int8.c.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int8.c
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int8.c:29:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int8.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int8.c:30:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int8.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int8.c:31:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int8.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int8.c:32:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int8.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int8.c:33:12: error: use of undeclared identifier 'INT8'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int8.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_cb2d9.dir/int8.c.o] Error 1
+make: *** [cmTC_cb2d9/fast] Error 2
+
+
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3c19d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3c19d.dir/build.make CMakeFiles/cmTC_3c19d.dir/build
+Building C object CMakeFiles/cmTC_3c19d.dir/int16.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -o CMakeFiles/cmTC_3c19d.dir/int16.c.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int16.c
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int16.c:29:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int16.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int16.c:30:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int16.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int16.c:31:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int16.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int16.c:32:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int16.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int16.c:33:12: error: use of undeclared identifier 'INT16'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int16.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_3c19d.dir/int16.c.o] Error 1
+make: *** [cmTC_3c19d/fast] Error 2
+
+
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0e830/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0e830.dir/build.make CMakeFiles/cmTC_0e830.dir/build
+Building C object CMakeFiles/cmTC_0e830.dir/int32.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -o CMakeFiles/cmTC_0e830.dir/int32.c.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int32.c
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int32.c:29:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int32.c:30:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int32.c:31:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int32.c:32:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int32.c:33:12: error: use of undeclared identifier 'INT32'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_0e830.dir/int32.c.o] Error 1
+make: *** [cmTC_0e830/fast] Error 2
+
+
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-unused-but-set-variable', did you mean '-Wno-unused-const-variable'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-unused-but-set-variable'
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cc366/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cc366.dir/build.make CMakeFiles/cmTC_cc366.dir/build
+Building C object CMakeFiles/cmTC_cc366.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -Wno-unused-but-set-variable -o CMakeFiles/cmTC_cc366.dir/src.c.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-unused-but-set-variable'; did you mean '-Wno-unused-const-variable'? [-Wunknown-warning-option]
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_cc366
+/usr/local/Cellar/cmake/3.18.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc366.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_cc366.dir/src.c.o -o cmTC_cc366 
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-maybe-uninitialized', did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-maybe-uninitialized'
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ef440/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ef440.dir/build.make CMakeFiles/cmTC_ef440.dir/build
+Building C object CMakeFiles/cmTC_ef440.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -Wno-maybe-uninitialized -o CMakeFiles/cmTC_ef440.dir/src.c.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-maybe-uninitialized'; did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_ef440
+/usr/local/Cellar/cmake/3.18.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef440.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_ef440.dir/src.c.o -o cmTC_ef440 
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-misleading-indentation', did you mean '-Wno-binding-in-condition'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aea76/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_aea76.dir/build.make CMakeFiles/cmTC_aea76.dir/build
+Building C object CMakeFiles/cmTC_aea76.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -Wno-misleading-indentation -o CMakeFiles/cmTC_aea76.dir/src.c.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-misleading-indentation'; did you mean '-Wno-binding-in-condition'? [-Wunknown-warning-option]
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_aea76
+/usr/local/Cellar/cmake/3.18.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aea76.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_aea76.dir/src.c.o -o cmTC_aea76 
+
+
+===== END =====
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7ecb6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7ecb6.dir/build.make CMakeFiles/cmTC_7ecb6.dir/build
+Building C object CMakeFiles/cmTC_7ecb6.dir/OPJ_HAVE_MALLOC_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -o CMakeFiles/cmTC_7ecb6.dir/OPJ_HAVE_MALLOC_H.c.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckIncludeFiles/OPJ_HAVE_MALLOC_H.c
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CheckIncludeFiles/OPJ_HAVE_MALLOC_H.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_7ecb6.dir/OPJ_HAVE_MALLOC_H.c.o] Error 1
+make: *** [cmTC_7ecb6/fast] Error 2
+
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(void){return 0;}
+
+Determining if the _aligned_malloc exist failed with the following output:
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_42f9b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_42f9b.dir/build.make CMakeFiles/cmTC_42f9b.dir/build
+Building C object CMakeFiles/cmTC_42f9b.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -o CMakeFiles/cmTC_42f9b.dir/CheckSymbolExists.c.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_42f9b.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_42f9b/fast] Error 2
+
+
+File /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memalign exist failed with the following output:
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8494e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8494e.dir/build.make CMakeFiles/cmTC_8494e.dir/build
+Building C object CMakeFiles/cmTC_8494e.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -o CMakeFiles/cmTC_8494e.dir/CheckSymbolExists.c.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_8494e.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_8494e/fast] Error 2
+
+
+File /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-cast-function-type', did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-cast-function-type'
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2575a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2575a.dir/build.make CMakeFiles/cmTC_2575a.dir/build
+Building C object CMakeFiles/cmTC_2575a.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-strict-prototypes  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -Wno-cast-function-type -o CMakeFiles/cmTC_2575a.dir/src.c.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_2575a
+/usr/local/Cellar/cmake/3.18.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2575a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-strict-prototypes  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_2575a.dir/src.c.o -o cmTC_2575a 
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-misleading-indentation', did you mean '-Wno-binding-in-condition'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f27fb/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f27fb.dir/build.make CMakeFiles/cmTC_f27fb.dir/build
+Building CXX object CMakeFiles/cmTC_f27fb.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -Wno-misleading-indentation -std=c++11 -o CMakeFiles/cmTC_f27fb.dir/src.cxx.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-misleading-indentation'; did you mean '-Wno-binding-in-condition'? [-Wunknown-warning-option]
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking CXX executable cmTC_f27fb
+/usr/local/Cellar/cmake/3.18.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f27fb.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_f27fb.dir/src.cxx.o -o cmTC_f27fb 
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-suggest-override', did you mean '-Wno-shift-overflow'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-suggest-override'
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_15778/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_15778.dir/build.make CMakeFiles/cmTC_15778.dir/build
+Building CXX object CMakeFiles/cmTC_15778.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -Wno-suggest-override -std=c++11 -o CMakeFiles/cmTC_15778.dir/src.cxx.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-suggest-override'; did you mean '-Wno-shift-overflow'? [-Wunknown-warning-option]
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking CXX executable cmTC_15778
+/usr/local/Cellar/cmake/3.18.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15778.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_15778.dir/src.cxx.o -o cmTC_15778 
+
+
+===== END =====
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_55a63/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_55a63.dir/build.make CMakeFiles/cmTC_55a63.dir/build
+Building C object CMakeFiles/cmTC_55a63.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -o CMakeFiles/cmTC_55a63.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.18.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_55a63
+/usr/local/Cellar/cmake/3.18.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55a63.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_55a63.dir/CheckFunctionExists.c.o -o cmTC_55a63 
+Undefined symbols for architecture x86_64:
+  "_sgemm_", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_55a63] Error 1
+make: *** [cmTC_55a63/fast] Error 2
+
+
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-unused-but-set-variable', did you mean '-Wno-unused-const-variable'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-but-set-variable'
+===== BUILD LOG =====
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bcdde/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bcdde.dir/build.make CMakeFiles/cmTC_bcdde.dir/build
+Building CXX object CMakeFiles/cmTC_bcdde.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-shadow -Wno-sign-compare -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -Wno-unused-but-set-variable -std=c++11 -o CMakeFiles/cmTC_bcdde.dir/src.cxx.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-unused-but-set-variable'; did you mean '-Wno-unused-const-variable'? [-Wunknown-warning-option]
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking CXX executable cmTC_bcdde
+/usr/local/Cellar/cmake/3.18.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcdde.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-shadow -Wno-sign-compare -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_bcdde.dir/src.cxx.o -o cmTC_bcdde 
+
+
+===== END =====
+
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_889f5/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_889f5.dir/build.make CMakeFiles/cmTC_889f5.dir/build
+Building C object CMakeFiles/cmTC_889f5.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc  -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -o CMakeFiles/cmTC_889f5.dir/CheckSymbolExists.c.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_2'
+  return ((int*)(&CL_VERSION_2_2))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_889f5.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_889f5/fast] Error 2
+
+
+File /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3cac2/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3cac2.dir/build.make CMakeFiles/cmTC_3cac2.dir/build
+Building C object CMakeFiles/cmTC_3cac2.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc  -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -o CMakeFiles/cmTC_3cac2.dir/CheckSymbolExists.c.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_1'
+  return ((int*)(&CL_VERSION_2_1))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_3cac2.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_3cac2/fast] Error 2
+
+
+File /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_26628/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_26628.dir/build.make CMakeFiles/cmTC_26628.dir/build
+Building C object CMakeFiles/cmTC_26628.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc  -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -o CMakeFiles/cmTC_26628.dir/CheckSymbolExists.c.o -c /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_0'
+  return ((int*)(&CL_VERSION_2_0))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_26628.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_26628/fast] Error 2
+
+
+File /Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

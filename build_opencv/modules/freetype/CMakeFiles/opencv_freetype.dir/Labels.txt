@@ -1,0 +1,19 @@
+# Target labels
+ Extra
+ opencv_freetype
+ Module
+# Source files and their labels
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv_contrib/modules/freetype/include/opencv2/freetype.hpp
+ Extra
+ opencv_freetype
+ Module
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv_contrib/modules/freetype/src/freetype.cpp
+ Extra
+ opencv_freetype
+ Module
+/Users/billalrahimi/Desktop/Robotics/C_Template/opencv_contrib/modules/freetype/src/precomp.hpp
+ Extra
+ opencv_freetype
+ Module
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/cvconfig.h
+/Users/billalrahimi/Desktop/Robotics/C_Template/build_opencv/opencv2/opencv_modules.hpp
